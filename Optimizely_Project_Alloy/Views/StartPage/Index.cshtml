@@ -1,0 +1,4 @@
+@using Optimizely_Project_Alloy
+@model PageViewModel<Optimizely_Project_Alloy.Models.Pages.StartPage>
+
+@Html.PropertyFor(x => x.CurrentPage.MainContentArea, new { CssClass = "row equal-height", tag = Global.ContentAreaTags.FullWidth })
